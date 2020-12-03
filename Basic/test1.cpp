@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 //test with basic cin cout
 
 int main(void)
