@@ -4,7 +4,6 @@ using namespace std;
 
 //test with basic cin cout
 
-
 int main(void)
 {
   int ourArray[5];
