@@ -12,9 +12,9 @@ void add1(array<int,N>& a) {
 }
 
 int main() {
-  array<int,5> a{1,2,3,4};
+  array<int,6> a{1,2,3,4};
   add1(a);
   for (auto n: a)
-    cout << n << ' '; // 2 3 4 5 1
+    cout << n << ' '; // 2 3 4 5 1 1
   cout << endl;
 }
