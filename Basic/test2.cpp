@@ -30,5 +30,4 @@ int main()
     t = d.startThreadWithCopyOfThis();
   }
   t.join();
-  
 }
