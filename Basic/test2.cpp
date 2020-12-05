@@ -12,6 +12,7 @@ public:
   ~Data() {
     std::cout << "Data destructed" << '\n';
   }
+  
   std::thread startThreadWithCopyOfThis() const {
     using namespace std::literals;
     std::thread t( [*this] {
@@ -19,7 +20,7 @@ public:
 	std::cout << name << '\n';
       });
     return t;
-    }
+  }
 };
 
 int main()

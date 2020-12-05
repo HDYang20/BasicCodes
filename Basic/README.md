@@ -6,3 +6,4 @@
 # test2.cpp   :   test with lambda this
 # test3.cpp   :   test with array
 # test4.cpp   :   test with variant
+# test5.cpp   :   test with move
