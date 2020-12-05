@@ -1,4 +1,4 @@
-# BasicCodes
+# BasicCodes for C++17 study
 
 # Compile each with g++-8 -std=c++17 test*.cpp -pthread -o test
 
