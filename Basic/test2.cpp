@@ -14,7 +14,7 @@ public:
   }
   std::thread startThreadWithCopyOfThis() const {
     using namespace std::literals;
-    std::thread t( [&,l=*this] {
+    std::thread t( [*this] {
 	std::this_thread::sleep_for(std::chrono::seconds(4));
 	std::cout << name << '\n';
       });
