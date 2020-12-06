@@ -7,7 +7,7 @@ using namespace std;
 struct Foo {
   int value;
   Foo(int i) : value{i} {}
-  ~Foo() { cout << "DTOR Foo " << value << '\n'; }
+  ~Foo() { cout << "Destruct Foo " << value << '\n'; }
 };
 
 void weak_ptr_info (const weak_ptr<Foo> &p)
