@@ -7,3 +7,4 @@
 # test3.cpp   :   test with array
 # test4.cpp   :   test with variant
 # test5.cpp   :   test with move
+# test6.cpp   :   test with weak pointer
