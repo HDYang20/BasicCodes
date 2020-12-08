@@ -8,3 +8,5 @@
 # test4.cpp   :   test with variant
 # test5.cpp   :   test with move
 # test6.cpp   :   test with weak pointer
+# test7.cpp   :   test with lambda function
+# test8.cpp   :   test with deleting iterms from an unsorted vector
