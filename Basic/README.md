@@ -12,3 +12,4 @@
 # test8.cpp           :   test with deleting iterms from an unsorted vector
 # test9(_hd).h/.cpp   :   test with inline variables and thread_local
 # test10.h/.cpp       :   test with compile-time if
+# test11.h/.cpp       :   test with auto as variable template parameter
